@@ -16,6 +16,7 @@ namespace xamarinForms.Servico
             string conteudo = wc.DownloadString(NovoEnderecoUrl);
 
             Endereco end = JsonConvert.DeserializeObject<Endereco>(conteudo);
+            if (end.Cep == null) return null;
 
             return end;
         }

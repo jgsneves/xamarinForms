@@ -22,9 +22,22 @@ namespace xamarinForms
             string cep = Cep.Text.Trim();
             if (isValidCEP(cep)) 
             {
-                Endereco end = ViaCEPServico.BuscarEnderecoViaCEP(cep);
-
-                Resultado.Text = string.Format("Endereço: {0}, {1}, {2}/{3}.", end.Logradouro, end.Bairro, end.Localidade, end.Uf);
+                try
+                {
+                    Endereco end = ViaCEPServico.BuscarEnderecoViaCEP(cep);
+                    if (end != null)
+                    {
+                        Resultado.Text = string.Format("Endereço: {0}, {1}, {2}/{3}.", end.Logradouro, end.Bairro, end.Localidade, end.Uf);
+                    } else
+                    {
+                        DisplayAlert("ERRO", string.Format("O CEP {0} não foi encontrado.", cep), "OK");
+                    }
+                    
+                } catch (Exception e)
+                {
+                    DisplayAlert("ERRO DE SERVIÇO", e.Message, "OK");
+                }
+               
             }
         }
 
