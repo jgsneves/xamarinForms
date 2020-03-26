@@ -1,0 +1,14 @@
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\bin\Debug\netstandard2.0\xamarinForms.deps.json
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\bin\Debug\netstandard2.0\xamarinForms.dll
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\xamarinForms.csprojAssemblyReference.cache
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\xamarinForms.AssemblyInfoInputs.cache
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\xamarinForms.AssemblyInfo.cs
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\bin\Debug\netstandard2.0\ref\xamarinForms.dll
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\bin\Debug\netstandard2.0\xamarinForms.pdb
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\xamarinForms.csproj.CoreCompileInputs.cache
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\xamarinForms.dll
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\ref\xamarinForms.dll
+C:\Users\JoaoNeves\source\repos\xamarinForms\xamarinForms\xamarinForms\obj\Debug\netstandard2.0\xamarinForms.pdb

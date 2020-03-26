@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="xamarinForms.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="15">
+        <Image Source="logo.png" />
+        <Entry Placeholder="Digite o CEP" 
+               PlaceholderColor="#FFBF00" 
+               BackgroundColor="#FFFFFF"
+               x:Name="Cep" />
+        <Button Text="BUSCAR" 
+                BackgroundColor="#00416B" 
+                TextColor="#FFFFFF"
+                x:Name="Botao" />
+
+        <Label Text=""
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               x:Name="Resultado"/>
+    </StackLayout>
+
+</ContentPage>
