@@ -20,9 +20,30 @@ namespace xamarinForms
         private void BuscarCEP(object sender, EventArgs args)
         {
             string cep = Cep.Text.Trim();
-            Endereco end = ViaCEPServico.BuscarEnderecoViaCEP(cep);
+            if (isValidCEP(cep)) 
+            {
+                Endereco end = ViaCEPServico.BuscarEnderecoViaCEP(cep);
 
-            Resultado.Text = string.Format("Endereço: {0}, {1}, {2}/{3}.", end.Logradouro, end.Bairro, end.Localidade, end.Uf);
+                Resultado.Text = string.Format("Endereço: {0}, {1}, {2}/{3}.", end.Logradouro, end.Bairro, end.Localidade, end.Uf);
+            }
+        }
+
+        private bool isValidCEP(string cep)
+        {
+            bool valido = true;
+            if (cep.Length != 8)
+            {
+                DisplayAlert("Erro!", "CEP Inválido: o CEP deve conter oito caracteres", "OK");
+                valido = false;
+            }
+            int NovoCEP = 0;
+            if (!int.TryParse(cep, out NovoCEP))
+            {
+                DisplayAlert("Erro!", "CEP Inválido: o cep contém apenas números, sem hífem", "OK");
+                valido = false;
+            }
+
+            return valido;
         }
     }
 }
