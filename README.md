@@ -2,7 +2,9 @@
 
 <p>Trata-se de um aplicativo mobile bem simples onde o usuário pode buscar mais informação de um endereço
 inputando apenas o número de CEP deste endereço. A tela principal do aplicativo é esta:</p>
-<img src="https://github.com/jgsneves/xamarinForms/blob/master/image.png" height="500" align="center">
+<div align="center">
+  <img src="https://github.com/jgsneves/xamarinForms/blob/master/image.png" height="500">
+</div>
 <br>
 <p>Após o usuário adicionar um número de CEP válido, o aplicativo retorna um resultado:</p>
 <img src="https://github.com/jgsneves/xamarinForms/blob/master/resultado.PNG" height="500">
