@@ -7,11 +7,17 @@ inputando apenas o número de CEP deste endereço. A tela principal do aplicativ
 </div>
 <br>
 <p>Após o usuário adicionar um número de CEP válido, o aplicativo retorna um resultado:</p>
-<img src="https://github.com/jgsneves/xamarinForms/blob/master/resultado.PNG" height="500">
+<div align="center">
+  <img src="https://github.com/jgsneves/xamarinForms/blob/master/resultado.PNG" height="500">
+</div>
 <br>
 <p>Há também tratamento de erros, como por exemplo, quando o usuário adiciona um número inválido de CEP
 em razão da quantidade de caracteres</P>
-<img src="https://github.com/jgsneves/xamarinForms/blob/master/validacaoErro1.PNG" height="500">
+<div align="center">
+  <img src="https://github.com/jgsneves/xamarinForms/blob/master/validacaoErro1.PNG" height="500">
+</div>
 <br>
 <p>Ou quando o usuário insere letras ou hífem:</p>
-<img src="https://github.com/jgsneves/xamarinForms/blob/master/validacaoErro2.PNG" height="500">
+<div align="center">
+  <img src="https://github.com/jgsneves/xamarinForms/blob/master/validacaoErro2.PNG" height="500">
+</div>
